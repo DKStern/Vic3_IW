@@ -1,0 +1,34 @@
+﻿EST = {
+    flag_definition = {
+        coa = EST
+        allow_overlord_canton = no
+        subject_canton = EST
+        priority = 1
+    }
+
+    flag_definition = {
+        coa = EST_monarchy
+        allow_overlord_canton = no
+        subject_canton = EST_monarchy
+        priority = 10
+
+        trigger = {
+            c:EST = { 
+                iw_monarchy_trigger = yes
+            }
+        }
+    }
+
+    flag_definition = {
+        coa = EST_soviet
+        allow_overlord_canton = no
+        subject_canton = EST_soviet
+        priority = 10
+
+        trigger = {
+             c:EST = { 
+                iw_soviet_republic_trigger = yes
+            }
+        }
+    }
+}

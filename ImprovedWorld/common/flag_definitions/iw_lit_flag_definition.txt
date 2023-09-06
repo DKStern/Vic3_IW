@@ -1,0 +1,45 @@
+﻿LIT = {
+    flag_definition = {
+        coa = LIT
+        allow_overlord_canton = no
+        subject_canton = LIT
+        priority = 1
+    }
+
+    flag_definition = {
+        coa = LIT_monarchy
+        allow_overlord_canton = no
+        subject_canton = LIT_monarchy
+        priority = 10
+
+        trigger = {
+            c:LIT = { 
+                iw_monarchy_trigger = yes
+            }
+        }
+    }
+
+    flag_definition = {
+        coa = LIT_soviet
+        allow_overlord_canton = no
+        subject_canton = LIT_soviet
+        priority = 10
+
+        trigger = {
+             c:LIT = { 
+                iw_soviet_republic_trigger = yes
+            }
+        }
+    }
+
+    flag_definition = {
+        coa = LIT_dictatorship
+        allow_overlord_canton = no
+        subject_canton = LIT_dictatorship
+        priority = 10
+
+        trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+    }
+}

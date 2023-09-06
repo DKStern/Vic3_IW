@@ -1,0 +1,11 @@
+﻿LIT = {
+	color = { 253 185 19 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { lithuanian }	
+	capital = STATE_LITHUANIA
+	is_named_from_capital = yes
+}

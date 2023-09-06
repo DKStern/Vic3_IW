@@ -1,0 +1,14 @@
+﻿l_russian:
+ dyn_c_LAT:0 "Латвия"
+ dyn_c_LAT_adj:0 "Латвийск"
+ dyn_c_LAT_monarchy:0 "Латвийское Герцегство"
+ dyn_c_LAT_monarchy_adj:0 "Латвийск"
+ dyn_c_LAT_republic:0 "Латвийская Республика"
+ dyn_c_LAT_republic_adj:0 "Латвийск"
+ dyn_c_LAT_soviet:0 "Латвийская Народная Республика"
+ dyn_c_LAT_soviet_adj:0 "Латвийск"
+
+ dyn_c_LAT_RUS_monarchy:0 "Лифляндское Княжество"
+ dyn_c_LAT_RUS_monarchy_adj "Лифляндск"
+ dyn_c_LAT_RUS_soviet:0 "Латвийская ССР"
+ dyn_c_LAT_RUS_soviet_adj:0 "Латвийск"

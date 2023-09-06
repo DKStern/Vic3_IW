@@ -1,0 +1,21 @@
+﻿LAT = {
+    flag_definition = {
+        coa = LAT
+        allow_overlord_canton = no
+        subject_canton = LAT
+        priority = 1
+    }
+
+    flag_definition = {
+        coa = LAT_soviet
+        allow_overlord_canton = no
+        subject_canton = LAT_soviet
+        priority = 10
+
+        trigger = {
+             c:LAT = { 
+                iw_soviet_republic_trigger = yes
+            }
+        }
+    }
+}

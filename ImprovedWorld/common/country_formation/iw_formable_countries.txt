@@ -1,0 +1,23 @@
+﻿UMW = {
+	states = {
+		STATE_WALLACHIA
+		STATE_MOLDAVIA
+	}
+
+	required_states_fraction = 1.0
+
+	ai_will_do = { always = yes }
+}
+
+BLK = {
+	use_culture_states = yes
+
+	required_states_fraction = 0.9
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = pan-nationalism
+		has_law = law_type:law_multicultural
+	}
+}

@@ -1,0 +1,14 @@
+﻿l_russian:
+ dyn_c_POL:0 "Польша"
+ dyn_c_POL_adj:0 "Польск"
+ dyn_c_POL_monarchy:0 "Польское Королевство"
+ dyn_c_POL_monarchy_adj:0 "Польск"
+ dyn_c_POL_republic:0 "Польская Республика"
+ dyn_c_POL_republic_adj:0 "Польск"
+ dyn_c_POL_soviet:0 "Польская Народная Республика"
+ dyn_c_POL_soviet_adj:0 "Польск"
+
+ dyn_c_POL_RUS_monarchy:0 "Польское Царство"
+ dyn_c_POL_RUS_monarchy_adj "Польск"
+ dyn_c_POL_RUS_soviet:0 "Польская ССР"
+ dyn_c_POL_RUS_soviet_adj:0 "Польск"

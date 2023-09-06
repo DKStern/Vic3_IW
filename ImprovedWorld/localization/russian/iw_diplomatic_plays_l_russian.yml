@@ -1,0 +1,32 @@
+﻿l_russian:
+ dp_unify_west_slavs:0 "Объединить западных славян"
+ dp_unify_west_slavs_tooltip:1 "#header Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_unify_west_slavs$»#!\n$TOOLTIP_DELIMITER$\n$dp_unify_west_slavs_desc$"
+ dp_unify_west_slavs_desc:0 "Определяет начальной [Concept('concept_war_goal', 'целью войны')] аннексию всех малых заподнославянских государств."
+
+ dp_leadership_west_slavs:0 "Западнославянское лидерство"
+ dp_leadership_west_slavs_desc:1 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_leadership_west_slavs$»\n$TOOLTIP_DELIMITER$\n$dp_leadership_west_slavs_tooltip_desc$"
+ dp_leadership_west_slavs_tooltip_desc:0 "Определяет начальной [Concept('concept_war_goal', 'целью войны')] устранение выбранной [Concept('concept_country', 'страны')] в качестве [Concept('concept_unification_candidate', 'кандидата')] на [Concept('concept_unification', 'крупное объединение')] Западной Славии."
+
+ dp_unify_slavs:0 "Объединить славян"
+ dp_unify_slavs_tooltip:1 "#header Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_unify_slavs$»#!\n$TOOLTIP_DELIMITER$\n$dp_unify_slavs_desc$"
+ dp_unify_slavs_desc:0 "Определяет начальной [Concept('concept_war_goal', 'целью войны')] аннексию всех малых славянских государств."
+
+ dp_leadership_slavs:0 "Славянское лидерство"
+ dp_leadership_slavs_desc:1 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_leadership_slavs$»\n$TOOLTIP_DELIMITER$\n$dp_leadership_slavs_tooltip_desc$"
+ dp_leadership_slavs_tooltip_desc:0 "Определяет начальной [Concept('concept_war_goal', 'целью войны')] устранение выбранной [Concept('concept_country', 'страны')] в качестве [Concept('concept_unification_candidate', 'кандидата')] на [Concept('concept_unification', 'крупное объединение')] Славии."
+
+ dp_unify_pan_german:0 "Объединить паннемцев"
+ dp_unify_pan_german_tooltip:1 "#header Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_unify_pan_german$»#!\n$TOOLTIP_DELIMITER$\n$dp_unify_pan_german_desc$"
+ dp_unify_pan_german_desc:0 "Определяет начальной [Concept('concept_war_goal', 'целью войны')] аннексию всех малых пангерманских государств."
+
+ dp_leadership_pan_german:0 "Пангерманское лидерство"
+ dp_leadership_pan_german_desc:1 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_leadership_pan_german$»\n$TOOLTIP_DELIMITER$\n$dp_leadership_pan_german_tooltip_desc$"
+ dp_leadership_pan_german_tooltip_desc:0 "Определяет начальной [Concept('concept_war_goal', 'целью войны')] устранение выбранной [Concept('concept_country', 'страны')] в качестве [Concept('concept_unification_candidate', 'кандидата')] на [Concept('concept_unification', 'крупное объединение')] Пангерманских стран."
+
+ dp_unify_kelts:0 "Объединить кельтов"
+ dp_unify_kelts_tooltip:1 "#header Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_unify_kelts$»#!\n$TOOLTIP_DELIMITER$\n$dp_unify_kelts_desc$"
+ dp_unify_kelts_desc:0 "Определяет начальной [Concept('concept_war_goal', 'целью войны')] аннексию всех малых кельтских государств."
+
+ dp_leadership_kelts:0 "Кельтское лидерство"
+ dp_leadership_kelts_desc:1 "Начать [Concept('concept_diplomatic_play', 'дипломатическую игру')] «$dp_leadership_kelts$»\n$TOOLTIP_DELIMITER$\n$dp_leadership_kelts_tooltip_desc$"
+ dp_leadership_kelts_tooltip_desc:0 "Определяет начальной [Concept('concept_war_goal', 'целью войны')] устранение выбранной [Concept('concept_country', 'страны')] в качестве [Concept('concept_unification_candidate', 'кандидата')] на [Concept('concept_unification', 'крупное объединение')] Кельтских стран."

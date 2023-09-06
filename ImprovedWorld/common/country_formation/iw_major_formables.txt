@@ -1,0 +1,136 @@
+﻿WSL = {
+	use_culture_states = yes
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_west_slavs
+	leadership_play = dp_leadership_west_slavs
+
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:czech
+			country_has_primary_culture = cu:slovak
+			country_has_primary_culture = cu:polish
+		}	
+		any_country = {
+			OR = {
+				country_has_primary_culture = cu:czech
+				country_has_primary_culture = cu:slovak
+				country_has_primary_culture = cu:polish
+			}			
+		}
+		has_technology_researched = pan-nationalism
+	}
+}
+
+UGE ={
+	use_culture_states = yes
+	is_major_formation = yes
+
+	unification_play = dp_unify_pan_german
+	leadership_play = dp_leadership_pan_german
+
+	required_states_fraction = 0.75
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:north_german
+			country_has_primary_culture = cu:south_german
+			country_has_primary_culture = cu:austrian
+			country_has_primary_culture = cu:dutch
+			country_has_primary_culture = cu:swiss
+			country_has_primary_culture = cu:flemish
+		}	
+		any_country = {
+			OR = {
+				country_has_primary_culture = cu:north_german
+				country_has_primary_culture = cu:south_german
+				country_has_primary_culture = cu:austrian
+				country_has_primary_culture = cu:dutch
+				country_has_primary_culture = cu:swiss
+				country_has_primary_culture = cu:flemish
+			}			
+		}
+		has_technology_researched = pan-nationalism
+	}
+}
+
+SLA = {
+	use_culture_states = yes
+	is_major_formation = yes
+
+	unification_play = dp_unify_slavs
+	leadership_play = dp_leadership_slavs
+
+	required_states_fraction = 0.75
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:russian
+			country_has_primary_culture = cu:ukrainian
+			country_has_primary_culture = cu:byelorussian
+			country_has_primary_culture = cu:czech
+			country_has_primary_culture = cu:slovak
+			country_has_primary_culture = cu:polish
+			country_has_primary_culture = cu:serb
+			country_has_primary_culture = cu:bulgarian
+			country_has_primary_culture = cu:bosniak
+			country_has_primary_culture = cu:croat
+			country_has_primary_culture = cu:slovene
+		}	
+		any_country = {
+			OR = {
+				country_has_primary_culture = cu:russian
+				country_has_primary_culture = cu:ukrainian
+				country_has_primary_culture = cu:byelorussian
+				country_has_primary_culture = cu:czech
+				country_has_primary_culture = cu:slovak
+				country_has_primary_culture = cu:polish
+				country_has_primary_culture = cu:serb
+				country_has_primary_culture = cu:bulgarian
+				country_has_primary_culture = cu:bosniak
+				country_has_primary_culture = cu:croat
+				country_has_primary_culture = cu:slovene
+			}			
+		}
+		has_technology_researched = pan-nationalism
+	}
+}
+
+KEL = {
+	use_culture_states = yes
+	is_major_formation = yes
+
+	unification_play = dp_unify_kelts
+	leadership_play = dp_leadership_kelts
+
+	required_states_fraction = 0.75
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:irish
+			country_has_primary_culture = cu:welsh
+			country_has_primary_culture = cu:scottish
+			country_has_primary_culture = cu:breton
+		}	
+		any_country = {
+			OR = {
+			country_has_primary_culture = cu:irish
+			country_has_primary_culture = cu:welsh
+			country_has_primary_culture = cu:scottish
+			country_has_primary_culture = cu:breton
+			}			
+		}
+		has_technology_researched = pan-nationalism
+	}
+}

@@ -1,0 +1,12 @@
+﻿WAL = {
+    flag_definition = {
+        coa = WAL_flag
+        allow_overlord_canton = yes
+        subject_canton = WAL_flag
+        priority = 2
+
+        trigger = {
+            NOT = { coa_def_turkish_ensign_trigger = yes }
+        }
+    }
+}

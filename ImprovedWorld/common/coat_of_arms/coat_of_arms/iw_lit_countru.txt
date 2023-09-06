@@ -1,0 +1,71 @@
+LIT = { # Литва
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 253 185 19 }
+    color2 = rgb { 0 106 68 }
+    color3 = rgb { 193 39 45 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+	}
+}
+
+LIT_monarchy = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_vytis.dds"
+		instance = { scale = { 0.9 0.9 } position = { 0.495 0.505 } }
+	}
+}
+
+LIT_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 253 185 19 }
+    color2 = rgb { 0 106 68 }
+    color3 = rgb { 193 39 45 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+	}
+	colored_emblem = {
+		texture = "ce_shield_heater.dds"
+		color1 = color1
+		instance = { scale = { 0.65 0.65 } position = { 0.33 0.50 } }			
+	}	
+	colored_emblem = {
+		texture = "ce_shield_heater.dds"
+		color1 = color3
+		instance = { scale = { 0.62 0.62 } position = { 0.33 0.50 } }			
+	}		
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = color1
+		instance = { scale = { 0.05 0.38 } position = { 0.33 0.51 } }	
+		instance = { scale = { 0.16 0.075 } position = { 0.33 0.43 } }
+		instance = { scale = { 0.16 0.075 } position = { 0.33 0.59 } }		
+	}	
+}
+
+LIT_soviet = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_ussr.dds"
+		color1 = color2
+		color2 = color2
+        instance = { scale = { 0.45 0.45 } position = { 0.20 0.25 }  }
+	}
+	colored_emblem = {
+		texture = "ce_stripes_02_bottom_lithuania.dds"
+		color1 = "green"
+		color2 = "white"
+        instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}

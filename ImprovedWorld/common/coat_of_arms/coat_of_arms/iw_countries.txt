@@ -1,0 +1,166 @@
+﻿WSL = {
+    pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "white"
+
+    colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "blue"
+	}
+}
+
+WSL_monarchy = {
+    pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "white"
+
+    colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "blue"
+	}
+
+    colored_emblem = {
+        texture = "ce_shield_heater_border.dds"
+        color1 = "red"
+        color2 = "yellow"
+        instance = { position = {0.5 0.66} scale = { 0.5 0.5 } }
+        instance = { position = {0.4 0.33} scale = { 0.5 0.5 } }
+        instance = { position = {0.6 0.33} scale = { 0.5 0.5 } }
+    }     
+}
+
+WAL_flag = {
+    pattern = "pattern_solid.tga"
+    color1 = "red"
+    color2 = "red"
+
+    colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+}
+
+WAL_flag_new = {
+    pattern = "pattern_solid.tga"
+    color1 = "yellow"
+    color2 = "yellow"
+
+    colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue"
+		color2 = "blue"
+	}
+}
+
+MOL_flag = {
+    pattern = "pattern_solid.tga"
+    color1 = "red"
+    color2 = "red"
+
+    colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "blue"
+		color2 = "blue"
+	}
+}
+
+MOL_republic_flag = {
+    pattern = "pattern_solid.tga"
+    color1 = "blue-light"
+    color2 = "blue-light"
+
+    colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "red"
+	}
+}
+
+UMW = {
+    pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "red"
+
+    colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "blue"
+	}
+}
+
+BLK = {
+    pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "red"
+
+    colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "black"
+	}
+}
+
+SLA = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	color2 = "blue"
+
+    colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+}
+
+UGE = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	color2 = "black"
+
+    colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "white"
+		color2 = "red"
+	}
+}
+
+KEL = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "green"
+
+	colored_emblem = {
+		texture = "ce_frame_circle_outline.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_triskelion_double.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } }
+	}
+}
+
+NMW = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "blue"
+		color2 = "red"
+	}
+
+	colored_emblem = {
+		texture = "ce_saltire.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+}

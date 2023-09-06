@@ -1,0 +1,11 @@
+﻿LAT = {
+	color = { 158 48 57}
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { latvian }	
+	capital = STATE_LATVIA
+	is_named_from_capital = yes
+}

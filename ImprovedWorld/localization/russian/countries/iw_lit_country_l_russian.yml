@@ -1,0 +1,14 @@
+﻿l_russian:
+ dyn_c_LIT:0 "Литва"
+ dyn_c_LIT_adj:0 "Литовск"
+ dyn_c_LIT_monarchy:0 "Княжество Литовское"
+ dyn_c_LIT_monarchy_adj:0 "Литовск"
+ dyn_c_LIT_republic:0 "Литовская Республика"
+ dyn_c_LIT_republic_adj:0 "Литовск"
+ dyn_c_LIT_soviet:0 "Литовская Народная Республика"
+ dyn_c_LIT_soviet_adj:0 "Литовск"
+
+ dyn_c_LIT_RUS_monarchy:0 "Княжество Литовское"
+ dyn_c_LIT_RUS_monarchy_adj "Литовск"
+ dyn_c_LIT_RUS_soviet:0 "Литовская ССР"
+ dyn_c_LIT_RUS_soviet_adj:0 "Литовск"

@@ -1,0 +1,75 @@
+﻿WSL = { #Западная славия
+    flag_definition = {
+        coa = WSL
+        allow_overlord_canton = yes
+        subject_canton = WSL
+        priority = 1
+    }
+
+    flag_definition = {
+        coa = WSL_monarchy
+        allow_overlord_canton = no
+        subject_canton = WSL_monarchy
+        priority = 2
+
+        trigger = {
+            c:WSL = {
+                iw_monarchy_trigger = yes
+            }
+        }
+    }
+}
+
+UMW = {
+    flag_definition = {
+        coa = UMW
+        allow_overlord_canton = yes
+        subject_canton = UMW
+        priority = 1
+    }
+}
+
+BLK = {
+    flag_definition = {
+        coa = BLK
+        allow_overlord_canton = yes
+        subject_canton = BLK
+        priority = 1
+    }
+}
+
+SLA = {
+    flag_definition = {
+        coa = SLA
+        allow_overlord_canton = yes
+        subject_canton = SLA
+        priority = 1
+    }
+}
+
+UGE = {
+    flag_definition = {
+        coa = UGE
+        allow_overlord_canton = yes
+        subject_canton = UGE
+        priority = 1
+    }
+}
+
+KEL = {
+    flag_definition = {
+        coa = KEL
+        allow_overlord_canton = yes
+        subject_canton = KEL
+        priority = 1
+    }
+}
+
+NMW = {
+    flag_definition = {
+        coa = NMW
+        allow_overlord_canton = no
+        subject_canton NMW
+        priority = 1
+    }
+}

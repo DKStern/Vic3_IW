@@ -1,0 +1,30 @@
+﻿LAT = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 158 48 57}
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal_fifth.dds"
+		color1 = color2
+		color2 = color1
+	}
+}
+
+LAT_soviet = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_ussr.dds"
+		color1 = color2
+		color2 = color2
+        instance = { scale = { 0.45 0.45 } position = { 0.20 0.25 }  }
+	}
+	colored_emblem = {
+		texture = "ce_waves_latvia.dds"
+		color1 = "blue"
+		color2 = "white"
+        instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
