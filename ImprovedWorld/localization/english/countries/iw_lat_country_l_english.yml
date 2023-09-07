@@ -1,0 +1,14 @@
+﻿l_english:
+ dyn_c_LAT:0 "Latvia"
+ dyn_c_LAT_adj:0 "Latvian"
+ dyn_c_LAT_monarchy:0 "Duchy of Latvia"
+ dyn_c_LAT_monarchy_adj:0 "Latvian"
+ dyn_c_LAT_republic:0 "Republic of Latvia"
+ dyn_c_LAT_republic_adj:0 "Latvian"
+ dyn_c_LAT_soviet:0 "Latvian People's Republic"
+ dyn_c_LAT_soviet_adj:0 "Latvian"
+
+ dyn_c_LAT_RUS_monarchy:0 "Duchy of Livonia"
+ dyn_c_LAT_RUS_monarchy_adj "Livonian"
+ dyn_c_LAT_RUS_soviet:0 "Latvian SSR"
+ dyn_c_LAT_RUS_soviet_adj:0 "Latvian"

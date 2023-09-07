@@ -1,0 +1,34 @@
+﻿BYE = {
+    flag_definition = {
+        coa = BYE
+        allow_overlord_canton = no
+        subject_canton = BYE
+        priority = 1
+    }
+
+    flag_definition = {
+        coa = BYE_monarchy
+        allow_overlord_canton = no
+        subject_canton = BYE_monarchy
+        priority = 10
+
+        trigger = {
+            c:BYE = { 
+                iw_monarchy_trigger = yes
+            }
+        }
+    }
+
+    flag_definition = {
+        coa = BYE_soviet
+        allow_overlord_canton = no
+        subject_canton = BYE_soviet
+        priority = 10
+
+        trigger = {
+             c:BYE = { 
+                iw_soviet_republic_trigger = yes
+            }
+        }
+    }
+}

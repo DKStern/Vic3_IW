@@ -1,4 +1,4 @@
-﻿l_russian:
+﻿l_english:
  dyn_c_serbia_tsarsdom:0 "Сербское Царство"
  dyn_c_serbia_tsarsdom_adj:0 "Сербск"
  dyn_c_serbia_kingdom:0 "Сербское Королевство"
@@ -37,6 +37,17 @@
  dyn_c_slavia_monarchy_adj:0 "Славянск"
  dyn_c_slavia_republic:0 "Славянская Федерация"
  dyn_c_slavia_republic_adj:0 "Славянск"
+
+ dyn_c_russian_empire:0 "Российская Империя"
+ dyn_c_russian_empire_adj:0 "Российск"
+ dyn_c_russian_federation:0 "Российская Федерация"
+ dyn_c_russian_federation_adj:0 "Российск"
+ 
+ dyn_c_UKR_RUS:0 "Малороссия"
+ dyn_c_UKR_RUS_adj:0 "Малороссийск"
+
+ dyn_c_BYE_RUS:0 "Великое Княжество Белорусское"
+ dyn_c_BYE_RUS_adj:0 "Белорусск"
 
  dyn_c_UBD_RUS:0 "Великое Княжество Балтийское"
  dyn_c_UBD_RUS_adj:0 "Балтийск"

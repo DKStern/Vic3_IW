@@ -1,0 +1,14 @@
+﻿l_english:
+ dyn_c_POL:0 "Poland"
+ dyn_c_POL_adj:0 "Polish"
+ dyn_c_POL_monarchy:0 "Kingdom of Poland"
+ dyn_c_POL_monarchy_adj:0 "Polish"
+ dyn_c_POL_republic:0 "Republic of Poland"
+ dyn_c_POL_republic_adj:0 "Polish"
+ dyn_c_POL_soviet:0 "Polish People's Republic"
+ dyn_c_POL_soviet_adj:0 "Polish"
+
+ dyn_c_POL_RUS_monarchy:0 "Tsarsdom of Poland"
+ dyn_c_POL_RUS_monarchy_adj "Polish"
+ dyn_c_POL_RUS_soviet:0 "Polish SSR"
+ dyn_c_POL_RUS_soviet_adj:0 "Polish"

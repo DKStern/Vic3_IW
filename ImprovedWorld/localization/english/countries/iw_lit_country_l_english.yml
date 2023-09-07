@@ -1,0 +1,14 @@
+﻿l_english:
+ dyn_c_LIT:0 "Lithuania"
+ dyn_c_LIT_adj:0 "Lithuanian"
+ dyn_c_LIT_monarchy:0 "Duchy of Lithuania"
+ dyn_c_LIT_monarchy_adj:0 "Lithuanian"
+ dyn_c_LIT_republic:0 "Republic of Lithuania"
+ dyn_c_LIT_republic_adj:0 "Lithuanian"
+ dyn_c_LIT_soviet:0 "Lithuanian People's Republic"
+ dyn_c_LIT_soviet_adj:0 "Lithuanian"
+
+ dyn_c_LIT_RUS_monarchy:0 "Duchy of Lithuania"
+ dyn_c_LIT_RUS_monarchy_adj "Lithuanian"
+ dyn_c_LIT_RUS_soviet:0 "Lithuanian SSR"
+ dyn_c_LIT_RUS_soviet_adj:0 "Lithuanian"

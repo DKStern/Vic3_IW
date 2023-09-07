@@ -200,80 +200,8 @@ SLA = {
 	}
 }
 
-RUS = {
-	dynamic_country_name = {
-		name = dyn_c_russian_empire
-		adjective = dyn_c_russian_empire_adj
-		
-		is_main_tag_only = yes
-		priority = 1
-
-		trigger = {
-			exists = c:RUS
-			c:RUS = {
-				iw_monarchy_trigger = yes
-			}
-		}
-	}
-
-	dynamic_country_name = {
-		name = dyn_c_russian_federation
-		adjective = dyn_c_russian_federation_adj
-		
-		is_main_tag_only = yes
-		priority = 1
-
-		trigger = {
-			exists = c:RUS
-			c:RUS = {
-				iw_monarchy_trigger = yes
-			}
-		}
-	}
-}
 
 
-UKR = {
-	dynamic_country_name = {
-		name = dyn_c_UKR_RUS
-		adjective = dyn_c_UKR_RUS_adj
-		
-		is_main_tag_only = yes
-		priority = 10
-		
-		trigger = {
-			exists = c:RUS
-			c:UKR = {
-				is_subject_of = c:RUS
-				iw_monarchy_trigger = yes
-			}
-			c:RUS = {
-				iw_monarchy_trigger = yes
-			}
-		}
-	}
-}
-
-BYE = {
-	dynamic_country_name = {
-		name = dyn_c_BYE_RUS
-		adjective = dyn_c_BYE_RUS_adj
-		
-		is_main_tag_only = yes
-		priority = 10
-		
-		trigger = {
-			exists = c:RUS
-			c:BYE = {
-				is_subject_of = c:RUS
-				iw_monarchy_trigger = yes
-			}
-			c:RUS = {
-				iw_monarchy_trigger = yes
-			}
-		}
-	}
-}
 
 UBD = {
 	dynamic_country_name = {

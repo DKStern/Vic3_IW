@@ -1,0 +1,14 @@
+﻿l_russian:
+ dyn_c_MOL:0 "Молдова"
+ dyn_c_MOL_adj:0 "Молдовск"
+ dyn_c_MOL_monarchy:0 "Молдавское Княжество"
+ dyn_c_MOL_monarchy_adj:0 "Молдавск"
+ dyn_c_MOL_republic:0 "Республика Молдова"
+ dyn_c_MOL_republic_adj:0 "Молдовск"
+ dyn_c_MOL_soviet:0 "Молдовская Народная Республика"
+ dyn_c_MOL_soviet_adj:0 "Молдовск"
+
+ dyn_c_MOL_RUS_monarchy:0 "Княжество Молдавия"
+ dyn_c_MOL_RUS_monarchy_adj:0 "Молдавск"
+ dyn_c_MOL_RUS_soviet:0 "Молдавская ССР"
+ dyn_c_MOL_RUS_soviet_adj:0 "Молдавск"

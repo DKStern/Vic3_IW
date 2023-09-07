@@ -1,0 +1,11 @@
+﻿WAL = {
+	color = { 161  126  128 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { romanian }
+	capital = STATE_WALLACHIA
+	is_named_from_capital = yes
+}

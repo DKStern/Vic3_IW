@@ -1,0 +1,14 @@
+﻿l_english:
+ dyn_c_EST:0 "Estonia"
+ dyn_c_EST_adj:0 "Estonian"
+ dyn_c_EST_monarchy:0 "Estonian Duchy"
+ dyn_c_EST_monarchy_adj:0 "Estonian"
+ dyn_c_EST_republic:0 "Estonian Republic"
+ dyn_c_EST_republic_adj:0 "Estonian"
+ dyn_c_EST_soviet:0 "Estonian People's Republic"
+ dyn_c_EST_soviet_adj:0 "Estonian"
+
+ dyn_c_EST_RUS_monarchy:0 "Principality of Estonia"
+ dyn_c_EST_RUS_monarchy_adj "Estonian"
+ dyn_c_EST_RUS_soviet:0 "Estonian SSR"
+ dyn_c_EST_RUS_soviet_adj:0 "Estonian"

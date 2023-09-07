@@ -1,0 +1,14 @@
+﻿l_russian:
+ dyn_c_WAL:0 "Валахия"
+ dyn_c_WAL_adj:0 "Валашск"
+ dyn_c_WAL_monarchy:0 "Княжество Валахия"
+ dyn_c_WAL_monarchy_adj:0 "Валашск"
+ dyn_c_WAL_republic:0 "Республика Валахия"
+ dyn_c_WAL_republic_adj:0 "Валашск"
+ dyn_c_WAL_soviet:0 "Валашская Народная Республика"
+ dyn_c_WAL_soviet_adj:0 "Валашск"
+
+ dyn_c_WAL_RUS_monarchy:0 "Княжество Валахия"
+ dyn_c_WAL_RUS_monarchy_adj:0 "Валашск"
+ dyn_c_WAL_RUS_soviet:0 "Валашская ССР"
+ dyn_c_WAL_RUS_soviet_adj:0 "Валашск"

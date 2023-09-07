@@ -1,0 +1,46 @@
+﻿UKR = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+}
+
+UKR_soviet = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+	color3 = "blue_light"
+	
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = color3
+		color2 = color3
+        instance = { scale = { 1.0 @third } position = { 0.5 @[1-third/2] }  }	
+	}
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_ussr.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.25 @third } scale = { 0.5 0.5 } }
+	}	
+}
+
+UKR_fascist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "black"
+		color2 = "black"
+	}
+}
+
+UKR_free_state = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+}

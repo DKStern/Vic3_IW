@@ -1,0 +1,51 @@
+﻿RUS = {
+   dynamic_country_name = {
+        name = dyn_c_RUS
+        adjective = dyn_c_RUS_adj
+
+        is_main_tag_only = yes
+        priority = 1000
+    }
+
+    dynamic_country_name = {
+        name = dyn_c_RUS_monarchy
+        adjective = dyn_c_RUS_monarchy_adj
+
+        is_main_tag_only = yes
+        priority = 1010
+
+        trigger = {
+            scope:actor = {
+                iw_monarchy_trigger = yes
+            }
+        }
+    }
+
+    dynamic_country_name = {
+        name = dyn_c_RUS_republic
+        adjective = dyn_c_RUS_republic_adj
+
+        is_main_tag_only = yes
+        priority = 1010
+
+        trigger = {
+            scope:actor = {
+                iw_republic_trigger = yes
+            }
+        }
+    }
+
+    dynamic_country_name = {
+        name = dyn_c_RUS_soviet
+        adjective = dyn_c_RUS_soviet_adj
+
+        is_main_tag_only = yes
+        priority = 1010
+
+        trigger = {
+            scope:actor = {
+                iw_soviet_republic_trigger = yes
+            }
+        }
+    }
+}

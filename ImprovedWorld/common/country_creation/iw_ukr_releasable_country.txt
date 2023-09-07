@@ -1,0 +1,14 @@
+UKR = {
+	states = {
+        STATE_KIEV
+        STATE_LUHANSK
+        STATE_CHERSON
+        STATE_BESSARABIA
+        STATE_EAST_GALICIA
+        STATE_VOLHYNIA
+    }
+	
+	required_num_states = 3
+
+	ai_will_do = { always = no }
+}

@@ -1,0 +1,62 @@
+﻿BYE = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = rgb { 204 0 0}
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color1
+	}
+}
+
+BYE_soviet = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_ussr.dds"
+		color1 = color2
+		color2 = color2
+        instance = { scale = { 0.45 0.45 } position = { 0.25 0.25 }  }
+	}
+    sub = {
+        parent = "sub_bssr" 
+        instance = { scale = { 0.45 0.45 } offset = { 0.09 0.28 } }
+    }
+}
+
+BYE_monarchy = {
+	# Tricolor with Pahonia COA
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = rgb { 204 0 0}
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color1
+	}
+	colored_emblem = {
+		texture = "ce_shield_heater.dds"
+		color1 = color1
+		color2 = color1
+		instance = { scale = { 0.73 0.65 } position = { 0.33 0.52 } }		
+	}	
+	colored_emblem = {
+		texture = "ce_shield_heater.dds"
+		color1 = color2
+		color2 = color1
+		instance = { scale = { 0.68 0.6 } position = { 0.33 0.52 } }		
+	}	
+	textured_emblem = {
+		texture = "te_vytis.dds"
+		instance = { scale = { 0.45 0.45 } position = { 0.325 0.51 } }
+	}	
+	textured_emblem = {
+		texture = "te_crown.dds"
+		instance = { scale = { 0.45 0.45 } position = { 0.33 0.20 } }
+	}	
+}

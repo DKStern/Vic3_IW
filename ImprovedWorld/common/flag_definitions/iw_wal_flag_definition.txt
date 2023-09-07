@@ -1,12 +1,52 @@
 ﻿WAL = {
     flag_definition = {
-        coa = WAL_flag
-        allow_overlord_canton = yes
-        subject_canton = WAL_flag
-        priority = 2
+        coa = WAL
+        allow_overlord_canton = no
+        subject_canton = WAL
+        priority = 1
 
         trigger = {
-            NOT = { coa_def_turkish_ensign_trigger = yes }
+            game_date < 1858.08.19
+        }
+    }
+
+    flag_definition = {
+        coa = WAL_new
+        allow_overlord_canton = no
+        subject_canton = WAL_new
+        priority = 1
+
+        trigger = {
+            game_date >= 1858.08.19
+        }
+    }
+
+    flag_definition = {
+        coa = WAL_revolution
+        allow_overlord_canton = no
+        subject_canton = WAL_revolution
+        priority = 1000
+
+        trigger = {
+            c:WAL = {
+                has_war_with = c:TUR
+                has_war_goal = independence
+            }
+        }
+    }
+
+    flag_definition = {
+        coa = WAL_subject
+        allow_overlord_canton = no
+        subject_canton = WAL_subject
+        priority = 10
+
+        trigger = {
+            exists = c:TUR
+            exists = c:WAL
+            WAL = {
+                is_subject_of = c:TUR
+            }
         }
     }
 }
