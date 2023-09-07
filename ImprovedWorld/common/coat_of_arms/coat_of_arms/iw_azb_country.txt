@@ -1,0 +1,53 @@
+﻿AZB = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "green"
+	}
+	colored_emblem = {
+		texture = "ce_crescent_star_08.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { scale = { 0.33 0.33 } position = { 0.5 0.5 } }		
+	}		
+}
+
+AZB_dictatorship = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "red"
+		color2 = "blue_light"
+	}		
+}
+
+AZB_communist = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+	color3 = "blue"
+
+	colored_emblem = {
+		texture = "ce_hammer_and_sickle.dds"
+		color1 = color2
+		color2 = color2
+        instance = { scale = { 0.5 0.5 } position = { 0.2 0.45 }  }
+	}
+	colored_emblem = {
+		texture = "ce_star_05_hollow.dds"
+		color1 = color2
+		color2 = color1
+        instance = { scale = { 0.2 0.2 } position = { 0.2 0.15 }  }
+	}
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = color3
+		color2 = color3
+        instance = { scale = { 1.0 0.2 } position = { 0.5 0.9 }  }
+	}	
+}

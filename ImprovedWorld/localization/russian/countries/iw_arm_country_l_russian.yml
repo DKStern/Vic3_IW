@@ -1,0 +1,14 @@
+﻿l_russian:
+ dyn_c_ARM:0 "Армения"
+ dyn_c_ARM_adj:0 "Армянск"
+ dyn_c_ARM_monarchy:0 "Армянское Царство"
+ dyn_c_ARM_monarchy_adj:0 "Армянск"
+ dyn_c_ARM_republic:0 "Республика Армения"
+ dyn_c_ARM_republic_adj:0 "Армянск"
+ dyn_c_ARM_soviet:0 "Армянская Народная Республика"
+ dyn_c_ARM_soviet_adj:0 "Армянск"
+
+ dyn_c_ARM_RUS_monarchy:0 "Армянское Царство"
+ dyn_c_ARM_RUS_monarchy_adj:0 "Армянск"
+ dyn_c_ARM_RUS_soviet:0 "Армянская ССР"
+ dyn_c_ARM_RUS_soviet_adj:0 "Армянск"

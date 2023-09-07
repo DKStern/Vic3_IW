@@ -1,0 +1,89 @@
+﻿ARM = { # Армения
+    dynamic_country_name = {
+        name = dyn_c_ARM
+        adjective = dyn_c_ARM_adj
+
+        is_main_tag_only = yes
+        priority = 1000
+    }
+
+    dynamic_country_name = {
+        name = dyn_c_ARM_monarchy
+        adjective = dyn_c_ARM_monarchy_adj
+
+        is_main_tag_only = yes
+        priority = 1010
+
+        trigger = {
+            scope:actor = {
+                iw_monarchy_trigger = yes
+            }
+        }
+    }
+
+    dynamic_country_name = {
+        name = dyn_c_ARM_republic
+        adjective = dyn_c_ARM_republic_adj
+
+        is_main_tag_only = yes
+        priority = 1010
+
+        trigger = {
+            scope:actor = {
+                iw_republic_trigger = yes
+            }
+        }
+    }
+
+    dynamic_country_name = {
+        name = dyn_c_ARM_soviet
+        adjective = dyn_c_ARM_soviet_adj
+
+        is_main_tag_only = yes
+        priority = 1010
+
+        trigger = {
+            scope:actor = {
+                iw_soviet_republic_trigger = yes
+            }
+        }
+    }
+
+	dynamic_country_name = {
+		name = dyn_c_ARM_RUS_monarchy
+		adjective = dyn_c_ARM_RUS_monarchy_adj
+
+		is_main_tag_only = yes
+		priority = 1011
+
+		trigger = {
+			exists = c:RUS
+			scope:actor = {
+				is_subject_of = c:RUS
+                iw_monarchy_trigger = yes
+			}
+            c:RUS = {
+				iw_monarchy_trigger = yes
+			}
+		}
+	}
+
+    dynamic_country_name = {
+		name = dyn_c_ARM_RUS_soviet
+		adjective = dyn_c_ARM_RUS_soviet_adj
+
+		is_main_tag_only = yes
+		priority = 1011
+
+		trigger = {
+			exists = c:RUS
+			scope:actor = {
+				is_subject_of = c:RUS
+                iw_soviet_republic_trigger = yes
+			}
+            c:RUS = {
+				iw_soviet_republic_trigger = yes
+			}
+		}
+	}
+}

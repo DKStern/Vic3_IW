@@ -1,0 +1,11 @@
+﻿GEO = {
+	color = { 210  45  45 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { georgian }
+	capital = STATE_GREATER_CAUCASUS
+	is_named_from_capital = yes
+}

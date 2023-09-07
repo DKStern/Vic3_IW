@@ -101,3 +101,15 @@ MOL_communist = {
 		instance = { position = { 0.15 @[0.75/4] } scale = { 0.35 0.35 } }
 	}	
 }
+
+MOL_republic = {
+    pattern = "pattern_solid.tga"
+    color1 = "blue-light"
+    color2 = "blue-light"
+
+    colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "yellow"
+		color2 = "red"
+	}
+}

@@ -31,54 +31,6 @@ WSL_monarchy = {
     }     
 }
 
-WAL_flag = {
-    pattern = "pattern_solid.tga"
-    color1 = "red"
-    color2 = "red"
-
-    colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-	}
-}
-
-WAL_flag_new = {
-    pattern = "pattern_solid.tga"
-    color1 = "yellow"
-    color2 = "yellow"
-
-    colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue"
-		color2 = "blue"
-	}
-}
-
-MOL_flag = {
-    pattern = "pattern_solid.tga"
-    color1 = "red"
-    color2 = "red"
-
-    colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue"
-		color2 = "blue"
-	}
-}
-
-MOL_republic_flag = {
-    pattern = "pattern_solid.tga"
-    color1 = "blue-light"
-    color2 = "blue-light"
-
-    colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "yellow"
-		color2 = "red"
-	}
-}
-
 UMW = {
     pattern = "pattern_solid.tga"
 	color1 = "red"

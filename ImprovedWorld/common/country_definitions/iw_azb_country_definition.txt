@@ -1,0 +1,11 @@
+﻿AZB = {
+	color = { 172 56 32 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { azerbaijani }
+	capital = STATE_AZERBAIJAN
+	is_named_from_capital = yes
+}

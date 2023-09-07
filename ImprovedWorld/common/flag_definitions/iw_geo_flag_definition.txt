@@ -1,0 +1,47 @@
+﻿GEO = {
+    flag_definition = {
+        coa = GEO
+        allow_overlord_canton = no
+        subject_canton = GEO
+        priority = 1
+    }
+
+    flag_definition = {
+        coa = GEO_historical
+        allow_overlord_canton = no
+        subject_canton = GEO_historical
+        priority = 10
+
+        trigger = {
+            c:GEO = { 
+                iw_republic_trigger = yes
+            }
+        }
+    }
+
+    flag_definition = {
+        coa = GEO_communist
+        allow_overlord_canton = no
+        subject_canton = GEO_communist
+        priority = 10
+
+        trigger = {
+             c:GEO = { 
+                iw_soviet_republic_trigger = yes
+            }
+        }
+    }
+
+     flag_definition = {
+        coa = GEO_theocracy
+        allow_overlord_canton = no
+        subject_canton = GEO_theocracy
+        priority = 10
+
+        trigger = {
+            c:GEO = { 
+                iw_theocracy_trigger = yes
+            }
+        }
+    }
+}

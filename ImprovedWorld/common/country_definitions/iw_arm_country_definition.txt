@@ -1,0 +1,11 @@
+﻿ARM = {
+	color = { 128 63 128 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { armenian }
+	capital = STATE_ARMENIA
+	is_named_from_capital = yes
+}

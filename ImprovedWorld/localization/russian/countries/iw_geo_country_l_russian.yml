@@ -1,0 +1,16 @@
+﻿l_russian:
+ dyn_c_GEO:0 "Грузия"
+ dyn_c_GEO_adj:0 "Грузинск"
+ dyn_c_GEO_monarchy:0 "Грузинское Царство"
+ dyn_c_GEO_monarchy_adj:0 "Грузинск"
+ dyn_c_GEO_republic:0 "Республика Грузия"
+ dyn_c_GEO_republic_adj:0 "Грузинск"
+ dyn_c_GEO_democratic_republic:0 "Грузинская Демократическая Республика"
+ dyn_c_GEO_democratic_republic_adj:0 "Грузинск"
+ dyn_c_GEO_soviet:0 "Грузинская Народная Республика"
+ dyn_c_GEO_soviet_adj:0 "Грузинск"
+
+ dyn_c_GEO_RUS_monarchy:0 "Грузинское Царство"
+ dyn_c_GEO_RUS_monarchy_adj:0 "Грузинск"
+ dyn_c_GEO_RUS_soviet:0 "Грузинская ССР"
+ dyn_c_GEO_RUS_soviet_adj:0 "Грузинск"

@@ -40,12 +40,6 @@
 
  dyn_c_UBD_RUS:0 "Великое Княжество Балтийское"
  dyn_c_UBD_RUS_adj:0 "Балтийск"
-
- dyn_c_GEO_RUS:0 "Грузинское Царство"
- dyn_c_GEO_RUS_adj:0 "Грузинск"
-
- dyn_c_ARM_RUS:0 "Армянское Царство"
- dyn_c_ARM_RUS_adj:0 "Армянск"
  
  dyn_c_CRI_RUS:0 "Крымское княжество"
  dyn_c_CRI_RUS_adj:0 "Крымск"

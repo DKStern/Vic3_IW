@@ -1,0 +1,15 @@
+﻿ARM = { # Армения
+	flag_definition = {
+		coa = ARM
+		subject_canton = ARM
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = ARM_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+}	

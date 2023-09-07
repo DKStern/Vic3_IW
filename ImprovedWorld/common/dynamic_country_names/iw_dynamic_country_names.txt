@@ -224,48 +224,6 @@ UBD = {
 	}
 }
 
-GEO = {
-	dynamic_country_name = {
-		name = dyn_c_GEO_RUS
-		adjective = dyn_c_GEO_RUS_adj
-		
-		is_main_tag_only = yes
-		priority = 10
-		
-		trigger = {
-			exists = c:RUS
-			c:GEO = {
-				is_subject_of = c:RUS
-				iw_monarchy_trigger = yes
-			}
-			c:RUS = {
-				iw_monarchy_trigger = yes
-			}
-		}
-	}
-}
-
-ARM = {
-	dynamic_country_name = {
-		name = dyn_c_ARM_RUS
-		adjective = dyn_c_ARM_RUS_adj
-		
-		is_main_tag_only = yes
-		priority = 10
-		
-		trigger = {
-			exists = c:RUS
-			c:ARM = {
-				is_subject_of = c:RUS
-				iw_monarchy_trigger = yes
-			}
-			c:RUS = {
-				iw_monarchy_trigger = yes
-			}
-		}
-	}
-}
-
 CRI = {
 	dynamic_country_name = {
 		name = dyn_c_CRI_RUS
